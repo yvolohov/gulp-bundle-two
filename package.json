@@ -1,0 +1,26 @@
+{
+  "name": "gulp-bundle-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaroslav Volokhov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.39",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "babili": "^0.1.4",
+    "gulp": "^3.9.1",
+    "gulp-browser": "^3.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
