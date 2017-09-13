@@ -9,7 +9,8 @@ const transforms = [
   {
 	  transform: 'babelify',
 	  options: {
-	    presets: ['env', 'react', 'babili'],
+	    presets: ['env', 'react', 'minify'],
+      global: false, // true for production
       sourceMaps: true
 	  }
   }
